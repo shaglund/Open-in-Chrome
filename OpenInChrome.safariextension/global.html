@@ -13,6 +13,7 @@ released under the MIT license (see LICENSE.md for details)
 
 		function performCommand(event) {
 		    if (event.command === "openinchrome") {
+
 	        var currentURL = event.target.browserWindow.activeTab.url;
 
 					var closeTab = safari.extension.settings.getItem("closeTabAfter");
@@ -22,7 +23,7 @@ released under the MIT license (see LICENSE.md for details)
 
 
 	        if (currentURL) {
-	            event.target.browserWindow.activeTab.url = "chromehelper://" + currentURL.split("://")[1];
+	        	event.target.browserWindow.activeTab.url = "chromehelper://" + currentURL.split("://")[1];
 					}
 
 

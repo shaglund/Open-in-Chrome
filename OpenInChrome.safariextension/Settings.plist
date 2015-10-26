@@ -8,7 +8,7 @@
 		<key>Key</key>
 		<string>closeTabAfter</string>
 		<key>Title</key>
-		<string>Close Safari tab after opening in Chrome.</string>
+		<string>Close tab after opening in Chrome.</string>
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>

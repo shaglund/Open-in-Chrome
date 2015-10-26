@@ -11,7 +11,13 @@ Note: the extension depends on an AppleScript application to communicate with Ch
 3. Put the ChromeHelper app anywhere you want and double-click it to register with Mac OS X (nothing will happen yet)
 4. Click the Open in Chrome arrow button in Safari to open the current page in Chrome
 
+## Sources
+* http://stackoverflow.com/questions/22107418/open-url-and-activate-google-chrome-via-applescript
+* https://yourmacguy.wordpress.com/2013/07/17/make-your-own-url-handler/
+
 ## Version History
+
+**2015-10-26**: improved script, added new icon and settings
 
 **2014-06-29**: Code sign ChromeHelper app (for Gatekeeper, issue #3).
 

@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Luke Hagan</string>
+	<string>Yannick Weiss</string>
 	<key>Builder Version</key>
-	<string>9537.75.14</string>
+	<string>11601.1.56</string>
 	<key>CFBundleDisplayName</key>
 	<string>Open in Chrome</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.lukehagan.openinchrome</string>
+	<string>com.yannickweiss.openinchrome</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -26,7 +26,7 @@
 				<key>Identifier</key>
 				<string>openinchrome</string>
 				<key>Image</key>
-				<string>arrow.png</string>
+				<string>Icon-32.png</string>
 				<key>Label</key>
 				<string>Open in Chrome</string>
 				<key>Tool Tip</key>
@@ -41,6 +41,8 @@
 	</dict>
 	<key>Description</key>
 	<string>Opens current web address in Chrome</string>
+	<key>DeveloperIdentifier</key>
+	<string>NDJHDNKXD6</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>

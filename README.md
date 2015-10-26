@@ -1,6 +1,6 @@
 # Open in Chrome
 
-Safari extension that opens the current page in Chrome. See [this post](http://daringfireball.net/2010/11/flash_free_and_cheating_with_google_chrome) by John Gruber for the "why" on this one.
+ Safari extension that opens the current page in Chrome for when you want to play a flash video or use the chrome webdev.
 
 Note: the extension depends on an AppleScript application to communicate with Chrome, so it will not work on Windows.
 
@@ -9,11 +9,9 @@ Note: the extension depends on an AppleScript application to communicate with Ch
 1. [Download](https://github.com/lhagan/Open-in-Chrome/zipball/master) and extract the ZIP file
 2. Install the extension (double-click OpenInChrome.safariextz)
 3. Put the ChromeHelper app anywhere you want and double-click it to register with Mac OS X (nothing will happen yet)
-4. Click the Open in Chrome arrow button in Safari to open the current page in Chrome
+4. Click the Open in Chrome button in Safari to open the current page in Chrome
 
-## Sources
-* http://stackoverflow.com/questions/22107418/open-url-and-activate-google-chrome-via-applescript
-* https://yourmacguy.wordpress.com/2013/07/17/make-your-own-url-handler/
+![icon](OpenInChrome.safariextension/Icon.png)
 
 ## Version History
 

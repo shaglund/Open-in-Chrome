@@ -10,27 +10,36 @@ released under the MIT license (see LICENSE.md for details)
 	<head>
 	   <title>global page</title>
 	   <script type="text/javascript">
- 
+
 		function performCommand(event) {
 		    if (event.command === "openinchrome") {
-		        var currentURL = event.target.browserWindow.activeTab.url;
-		        if (currentURL) {
-		            event.target.browserWindow.activeTab.url = "chromehelper://" + currentURL.split("://")[1];
-				}
+	        var currentURL = event.target.browserWindow.activeTab.url;
+
+					var closeTab = safari.extension.settings.getItem("closeTabAfter");
+					if (closeTab) {
+						safari.application.activeBrowserWindow.activeTab.close();
+					}
+
+
+	        if (currentURL) {
+	            event.target.browserWindow.activeTab.url = "chromehelper://" + currentURL.split("://")[1];
+					}
+
+
 		    }
 		}
- 
+
 		function validateCommand(event) {
 		    if (event.command === "reload-page") {
 		        // Disable the button if there is no URL loaded in the tab.
 		        event.target.disabled = !event.target.browserWindow.activeTab.url;
 		    }
 		}
- 
+
 		// register with application:
 		safari.application.addEventListener("command", performCommand, false);
 		safari.application.addEventListener("validate", validateCommand, false);
-     
+
 	   </script>
 	</head>
 	<body>

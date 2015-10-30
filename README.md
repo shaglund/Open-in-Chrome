@@ -13,6 +13,9 @@ Note: the extension depends on an AppleScript application to communicate with Ch
 
 ![icon](OpenInChrome.safariextension/Icon.png)
 
+## Todo
+On first start, check if chrome handler is installed, if not ask for user to download companion app.
+
 ## Version History
 
 **2015-10-26**: improved script, added new icon and settings

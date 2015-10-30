@@ -4,11 +4,15 @@
 <array>
 	<dict>
 		<key>DefaultValue</key>
-		<string>false</string>
+		<string>0</string>
+		<key>FalseValue</key>
+		<string>0</string>
 		<key>Key</key>
 		<string>closeTabAfter</string>
 		<key>Title</key>
 		<string>Close tab after opening in Chrome.</string>
+		<key>TrueValue</key>
+		<string>1</string>
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>

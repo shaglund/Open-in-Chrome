@@ -35,7 +35,9 @@
 		</array>
 	</dict>
 	<key>Companion Bundle Identifier</key>
-	<array/>
+	<array>
+		<string>com.yannickweiss.OpenInChrome.Extension</string>
+	</array>
 	<key>Content</key>
 	<dict>
 		<key>Scripts</key>

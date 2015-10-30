@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE58F5A11BDE8EB900F0BC8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE58F5A01BDE8EB900F0BC8E /* AppDelegate.swift */; };
+		AE58F5A31BDE8EB900F0BC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE58F5A21BDE8EB900F0BC8E /* Assets.xcassets */; };
+		AE58F5A61BDE8EB900F0BC8E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE58F5A41BDE8EB900F0BC8E /* MainMenu.xib */; };
+		AE58F5B41BDE8EDC00F0BC8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE58F5B31BDE8EDC00F0BC8E /* Cocoa.framework */; };
+		AE58F5B91BDE8EDC00F0BC8E /* ExtensionCompanionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE58F5B81BDE8EDC00F0BC8E /* ExtensionCompanionRequestHandler.swift */; };
+		AE58F5BD1BDE8EDC00F0BC8E /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AE58F5B11BDE8EDC00F0BC8E /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE58F5BB1BDE8EDC00F0BC8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE58F5951BDE8EB900F0BC8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE58F5B01BDE8EDC00F0BC8E;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE58F5C11BDE8EDC00F0BC8E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AE58F5BD1BDE8EDC00F0BC8E /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE58F59D1BDE8EB900F0BC8E /* OpenInChrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInChrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE58F5A01BDE8EB900F0BC8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE58F5A21BDE8EB900F0BC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE58F5A51BDE8EB900F0BC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AE58F5A71BDE8EB900F0BC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE58F5B11BDE8EDC00F0BC8E /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE58F5B31BDE8EDC00F0BC8E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AE58F5B71BDE8EDC00F0BC8E /* Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Extension.entitlements; sourceTree = "<group>"; };
+		AE58F5B81BDE8EDC00F0BC8E /* ExtensionCompanionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionCompanionRequestHandler.swift; sourceTree = "<group>"; };
+		AE58F5BA1BDE8EDC00F0BC8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE58F5C21BDE92FB00F0BC8E /* Chrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chrome.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE58F59A1BDE8EB900F0BC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE58F5AE1BDE8EDC00F0BC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE58F5B41BDE8EDC00F0BC8E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE58F5941BDE8EB900F0BC8E = {
+			isa = PBXGroup;
+			children = (
+				AE58F59F1BDE8EB900F0BC8E /* OpenInChrome */,
+				AE58F5B51BDE8EDC00F0BC8E /* Extension */,
+				AE58F5B21BDE8EDC00F0BC8E /* Frameworks */,
+				AE58F59E1BDE8EB900F0BC8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE58F59E1BDE8EB900F0BC8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE58F59D1BDE8EB900F0BC8E /* OpenInChrome.app */,
+				AE58F5B11BDE8EDC00F0BC8E /* Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE58F59F1BDE8EB900F0BC8E /* OpenInChrome */ = {
+			isa = PBXGroup;
+			children = (
+				AE58F5A01BDE8EB900F0BC8E /* AppDelegate.swift */,
+				AE58F5A21BDE8EB900F0BC8E /* Assets.xcassets */,
+				AE58F5A41BDE8EB900F0BC8E /* MainMenu.xib */,
+				AE58F5A71BDE8EB900F0BC8E /* Info.plist */,
+			);
+			path = OpenInChrome;
+			sourceTree = "<group>";
+		};
+		AE58F5B21BDE8EDC00F0BC8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE58F5B31BDE8EDC00F0BC8E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE58F5B51BDE8EDC00F0BC8E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE58F5C21BDE92FB00F0BC8E /* Chrome.h */,
+				AE58F5B81BDE8EDC00F0BC8E /* ExtensionCompanionRequestHandler.swift */,
+				AE58F5BA1BDE8EDC00F0BC8E /* Info.plist */,
+				AE58F5B61BDE8EDC00F0BC8E /* Supporting Files */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AE58F5B61BDE8EDC00F0BC8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE58F5B71BDE8EDC00F0BC8E /* Extension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE58F59C1BDE8EB900F0BC8E /* OpenInChrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE58F5AA1BDE8EB900F0BC8E /* Build configuration list for PBXNativeTarget "OpenInChrome" */;
+			buildPhases = (
+				AE58F5991BDE8EB900F0BC8E /* Sources */,
+				AE58F59A1BDE8EB900F0BC8E /* Frameworks */,
+				AE58F59B1BDE8EB900F0BC8E /* Resources */,
+				AE58F5C11BDE8EDC00F0BC8E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE58F5BC1BDE8EDC00F0BC8E /* PBXTargetDependency */,
+			);
+			name = OpenInChrome;
+			productName = OpenInChrome;
+			productReference = AE58F59D1BDE8EB900F0BC8E /* OpenInChrome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE58F5B01BDE8EDC00F0BC8E /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE58F5BE1BDE8EDC00F0BC8E /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				AE58F5AD1BDE8EDC00F0BC8E /* Sources */,
+				AE58F5AE1BDE8EDC00F0BC8E /* Frameworks */,
+				AE58F5AF1BDE8EDC00F0BC8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = AE58F5B11BDE8EDC00F0BC8E /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE58F5951BDE8EB900F0BC8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Yannick Weiss";
+				TargetAttributes = {
+					AE58F59C1BDE8EB900F0BC8E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = NDJHDNKXD6;
+					};
+					AE58F5B01BDE8EDC00F0BC8E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = NDJHDNKXD6;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AE58F5981BDE8EB900F0BC8E /* Build configuration list for PBXProject "OpenInChrome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE58F5941BDE8EB900F0BC8E;
+			productRefGroup = AE58F59E1BDE8EB900F0BC8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE58F59C1BDE8EB900F0BC8E /* OpenInChrome */,
+				AE58F5B01BDE8EDC00F0BC8E /* Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE58F59B1BDE8EB900F0BC8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE58F5A31BDE8EB900F0BC8E /* Assets.xcassets in Resources */,
+				AE58F5A61BDE8EB900F0BC8E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE58F5AF1BDE8EDC00F0BC8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE58F5991BDE8EB900F0BC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE58F5A11BDE8EB900F0BC8E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE58F5AD1BDE8EDC00F0BC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE58F5B91BDE8EDC00F0BC8E /* ExtensionCompanionRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE58F5BC1BDE8EDC00F0BC8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE58F5B01BDE8EDC00F0BC8E /* Extension */;
+			targetProxy = AE58F5BB1BDE8EDC00F0BC8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE58F5A41BDE8EB900F0BC8E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE58F5A51BDE8EB900F0BC8E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE58F5A81BDE8EB900F0BC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE58F5A91BDE8EB900F0BC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE58F5AB1BDE8EB900F0BC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = OpenInChrome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannickweiss.OpenInChrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE58F5AC1BDE8EB900F0BC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = OpenInChrome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannickweiss.OpenInChrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE58F5BF1BDE8EDC00F0BC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannickweiss.OpenInChrome.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AE58F5C01BDE8EDC00F0BC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannickweiss.OpenInChrome.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE58F5981BDE8EB900F0BC8E /* Build configuration list for PBXProject "OpenInChrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE58F5A81BDE8EB900F0BC8E /* Debug */,
+				AE58F5A91BDE8EB900F0BC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE58F5AA1BDE8EB900F0BC8E /* Build configuration list for PBXNativeTarget "OpenInChrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE58F5AB1BDE8EB900F0BC8E /* Debug */,
+				AE58F5AC1BDE8EB900F0BC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE58F5BE1BDE8EDC00F0BC8E /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE58F5BF1BDE8EDC00F0BC8E /* Debug */,
+				AE58F5C01BDE8EDC00F0BC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE58F5951BDE8EB900F0BC8E /* Project object */;
+}

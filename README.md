@@ -1,6 +1,6 @@
-# Open in Chrome
+# Open in Chrome ![icon](OpenInChrome.safariextension/Icon-32.png)
 
-A Safari extension that opens the current page in Google Chrome, for when you want to play a flash video without having Adoble Flash installed.
+A Safari extension that opens the current page in Google Chrome, for when you want to play a flash video without having Adobe Flash installed.
 
 ## Usage
 
@@ -8,5 +8,7 @@ A Safari extension that opens the current page in Google Chrome, for when you wa
 2. Install the extension (double-click OpenInChrome.safariextz).
 3. Download the Companion app and open it once.
 4. Click the Open in Chrome button in Safari to open the current page in Chrome.
+
+![screenshot](screenshot.png)
 
 ![icon](OpenInChrome.safariextension/Icon.png)

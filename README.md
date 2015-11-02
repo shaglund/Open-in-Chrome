@@ -10,5 +10,3 @@ A Safari extension that opens the current page in Google Chrome, for when you wa
 4. Click the Open in Chrome button in Safari to open the current page in Chrome.
 
 ![screenshot](screenshot.png)
-
-![icon](OpenInChrome.safariextension/Icon.png)
